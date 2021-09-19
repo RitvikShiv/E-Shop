@@ -1,0 +1,104 @@
+.top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.head-text {
+    font-size: 3rem;
+}
+
+.box1,
+.box2,
+.box3 {
+    margin-top: 1rem;
+    height: 600px;
+    width: 400px;
+    background-color: #fada28;
+}
+
+.box1-row1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.b1,
+.b2 {
+    margin-top: 1rem;
+    height: 250px;
+    width: 180px;
+    background-color: aqua;
+}
+
+.box1-row2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.b2-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1em;
+}
+
+.b2-box1,
+.b2-box2 {
+    margin-top: 1.5rem;
+    background-color: aqua;
+    height: 250px;
+    width: 350px;
+}
+
+.b3-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1em;
+}
+
+.b3-box1,
+.b3-box2 {
+    margin-top: 1.5rem;
+    background-color: aqua;
+    height: 250px;
+    width: 200px;
+    margin-left: 5em;
+}
+
+.image1 {
+    height: 250px;
+    width: 200px;
+    /* margin-top: 7rem; */
+}
+
+.form {
+    margin-top: 3.5em;
+}
+
+.box-text {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .head-text {
+        font-size: 25px;
+    }
+}
